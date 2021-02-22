@@ -1,6 +1,6 @@
 # WindowsのWSLでAtCoderの開発環境を構築する
 
-　Windows10のWSL(Windows Subsystem Linux)で、AtCoderの開発環境(C++)を構築する操作手順をまとめてみました。ここでは、WSL2とUbuntu(20.04)は、すでに導入済として解説します。
+　Windows10のWSL(Windows Subsystem for Linux)で、AtCoderの開発環境(C++)を構築する操作手順をまとめてみました。ここでは、WSLとUbuntuは、すでに導入済として解説します。
 
 ## 導入環境
 
