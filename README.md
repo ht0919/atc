@@ -84,7 +84,7 @@ $ cd {問題番号 例:a}
 
 3. 問題ファイルの作成とビルド
 ```
-$ vim main.cpp
+$ nano main.cpp
 $ g++ main.cpp
 ```
 
