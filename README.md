@@ -19,13 +19,14 @@ $ sudo apt install python3-pip
 ```
 3. node.jsの導入
 ```
-$ sudo apt-get install curl
 $ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+※一旦ログアウトして再ログイン
 $ nvm install --lts
 ```
 4. check-ojの導入とAtCoderへのログイン
 ```
 $ pip3 install online-judge-tools
+※一旦ログアウトして再ログイン
 $ oj login https://atcoder.jp/
 ```
 5. atcoder-cliの導入とAtCoderへのログイン
