@@ -44,7 +44,7 @@ $ acc config default-test-dirname-format test
 2. テンプレートの設定
 ```
 $ cd ~/.config/atcoder-cli-nodejs
-$ mkdir ccp
+$ mkdir cpp
 $ cd cpp
 ```
   - エディタで下記の内容を入力し main.cpp という名前で保存する
