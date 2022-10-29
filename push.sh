@@ -1,6 +1,6 @@
 #!/bin/bash
 S1="abc"
-S2="274"
+S2="275"
 S3=$S1$S2
 if [[ -d ./$S3 ]]; then
     find . -executable -type f -not -path '*.git*' -delete
