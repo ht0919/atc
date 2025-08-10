@@ -3,7 +3,8 @@ S1="abc"
 S2="418"
 S3=$S1$S2
 if [[ -d ./$S3 ]]; then
-    find . -executable -type f -not -path '*.git*' -delete
+    #find . -executable -type f -not -path '*.git*' -delete
+    find . -perm +0111 -type f -not -path '*.git*' -delete
     git add -A
     git commit -m "Add ${S3}"
     git push
