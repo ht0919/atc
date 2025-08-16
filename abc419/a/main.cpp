@@ -1,14 +1,15 @@
 #include <bits/stdc++.h>
 using namespace std;
 int main() {
-    string S,ans="Unknown"; cin>>S;
-    if (S=="red") {
-        ans = "SSS";
-    } else if (S=="blue") {
-        ans = "FFF";
-    } else if (S=="green") {
-        ans = "MMM";
+    map<string, string> m={
+        {"red","SSS"},{"blue","FFF"},{"green","MMM"}
+    };
+    string S; cin>>S;
+    auto it = m.find(S);
+    if (it != m.end()) {
+        cout<<it->second<<endl;
+    } else {
+        cout<<"Unknown"<<endl;
     }
-    cout << ans << endl;
     return 0;
 }
