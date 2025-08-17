@@ -3,8 +3,13 @@ S1="abc"
 S2="419"
 S3=$S1$S2
 if [[ -d ./$S3 ]]; then
-    find . -executable -type f -not -path '*.git*' -delete
-    #find . -perm +0111 -type f -not -path '*.git*' -delete
+    if [ "$(uname)" == 'Darwin' ]; then
+        find . -perm +0111 -type f -not -path '*.git*' -delete
+    elif [ "$(uname)" == 'Linux' ]; then
+        find . -executable -type f -not -path '*.git*' -delete
+    else
+        echo "Your platform ($(uname)) is not supportted."
+    fi
     git add -A
     git commit -m "Add ${S3}"
     git push
