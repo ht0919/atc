@@ -2,7 +2,6 @@
 S1="abc"
 S2="419"
 S3=$S1$S2
-
 if [[ -d ./$S3 ]]; then
     if [ "$(uname)" == 'Darwin' ]; then
         find . -perm +0111 -type f -not -path '*.git*' -delete
