@@ -1,0 +1,8 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main() {
+    int X,Y; cin>>X>>Y;
+    int ans = X * pow(2,Y);
+    cout<<ans<<endl;
+    return 0;
+}
