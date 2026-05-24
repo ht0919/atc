@@ -5,10 +5,8 @@ int main() {
     string S = "HelloWorld";
     string D = "         ";
     for (int i=0,j=0; i<(int)(S.length()); i++) {
-        if (i != X-1) {
-            D[j] = S[i];
-            j++;
-        }
+        if ((i+1) == X) continue;
+        D[j++] = S[i];
     }
     cout<<D<<endl;
     return 0;
