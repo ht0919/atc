@@ -1,3 +1,4 @@
+#!/bin/bash
 if [[ "$(uname)" == "Darwin" ]]; then
     cp session.json /Users/ht0919/Library/Preferences/atcoder-cli-nodejs
 elif [[ "$(uname)" == "Linux" ]]; then
