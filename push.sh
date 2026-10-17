@@ -1,6 +1,6 @@
 #!/bin/bash
 S1="abc"
-S2="479"
+S2="480"
 S3=$S1$S2
 if [[ -d ./$S3 ]]; then
     if [[ "$(uname)" == "Darwin" ]]; then
