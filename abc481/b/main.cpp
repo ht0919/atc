@@ -1,10 +1,6 @@
-# include<bits/stdc++.h>
+#include<bits/stdc++.h>
 using namespace std;
 int main() {
-    // 高速入出力の設定
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
-
     int N, K;
     if (!(cin >> N >> K)) return 0;
     vector<int> A(N);
@@ -22,7 +18,6 @@ int main() {
         int max_y = max(A[i], A[i+1]);
         if (min_y < K && K < max_y) ans++;
     }
-    // 結果を出力
     cout << ans << "\n";
     return 0;
 }
