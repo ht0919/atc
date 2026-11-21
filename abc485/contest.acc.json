@@ -1,0 +1,61 @@
+{
+  "contest": {
+    "id": "abc485",
+    "title": "AtCoder Beginner Contest 485",
+    "url": "https://atcoder.jp/contests/abc485"
+  },
+  "tasks": [
+    {
+      "id": "abc485_a",
+      "label": "A",
+      "title": "Same Side",
+      "url": "https://atcoder.jp/contests/abc485/tasks/abc485_a",
+      "directory": {
+        "path": "a",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc485_b",
+      "label": "B",
+      "title": "Faucets and Drains",
+      "url": "https://atcoder.jp/contests/abc485/tasks/abc485_b",
+      "directory": {
+        "path": "b",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc485_c",
+      "label": "C",
+      "title": "Different Neighbor",
+      "url": "https://atcoder.jp/contests/abc485/tasks/abc485_c"
+    },
+    {
+      "id": "abc485_d",
+      "label": "D",
+      "title": "ABC|ABC|ABC",
+      "url": "https://atcoder.jp/contests/abc485/tasks/abc485_d"
+    },
+    {
+      "id": "abc485_e",
+      "label": "E",
+      "title": "Colorful Route",
+      "url": "https://atcoder.jp/contests/abc485/tasks/abc485_e"
+    },
+    {
+      "id": "abc485_f",
+      "label": "F",
+      "title": "Big Bridge",
+      "url": "https://atcoder.jp/contests/abc485/tasks/abc485_f"
+    },
+    {
+      "id": "abc485_g",
+      "label": "G",
+      "title": "Similar Adjacent Subarrays",
+      "url": "https://atcoder.jp/contests/abc485/tasks/abc485_g"
+    }
+  ]
+}
