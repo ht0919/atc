@@ -1,0 +1,61 @@
+{
+  "contest": {
+    "id": "abc486",
+    "title": "AtCoder Beginner Contest 486",
+    "url": "https://atcoder.jp/contests/abc486"
+  },
+  "tasks": [
+    {
+      "id": "abc486_a",
+      "label": "A",
+      "title": "Phonetic Alphabet ",
+      "url": "https://atcoder.jp/contests/abc486/tasks/abc486_a",
+      "directory": {
+        "path": "a",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc486_b",
+      "label": "B",
+      "title": "Player Substitution",
+      "url": "https://atcoder.jp/contests/abc486/tasks/abc486_b",
+      "directory": {
+        "path": "b",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "abc486_c",
+      "label": "C",
+      "title": "Skip Lighting",
+      "url": "https://atcoder.jp/contests/abc486/tasks/abc486_c"
+    },
+    {
+      "id": "abc486_d",
+      "label": "D",
+      "title": "Monsters",
+      "url": "https://atcoder.jp/contests/abc486/tasks/abc486_d"
+    },
+    {
+      "id": "abc486_e",
+      "label": "E",
+      "title": "Increasing Walk",
+      "url": "https://atcoder.jp/contests/abc486/tasks/abc486_e"
+    },
+    {
+      "id": "abc486_f",
+      "label": "F",
+      "title": "Increasing Diversity",
+      "url": "https://atcoder.jp/contests/abc486/tasks/abc486_f"
+    },
+    {
+      "id": "abc486_g",
+      "label": "G",
+      "title": "Automaton Testing",
+      "url": "https://atcoder.jp/contests/abc486/tasks/abc486_g"
+    }
+  ]
+}
